@@ -11,6 +11,9 @@
 		D03596A22AC2DDE700722BB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03596A12AC2DDE700722BB0 /* ContentView.swift */; };
 		D03596A42AC2DDEA00722BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03596A32AC2DDEA00722BB0 /* Assets.xcassets */; };
 		D03596A72AC2DDEA00722BB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03596A62AC2DDEA00722BB0 /* Preview Assets.xcassets */; };
+		D03596AE2AC432D400722BB0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03596AD2AC432D400722BB0 /* Location.swift */; };
+		D03596B22AC4452500722BB0 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03596B12AC4452500722BB0 /* EditView.swift */; };
+		D03596B42AC4824000722BB0 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03596B32AC4824000722BB0 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		D03596A12AC2DDE700722BB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D03596A32AC2DDEA00722BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D03596A62AC2DDEA00722BB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D03596AD2AC432D400722BB0 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		D03596B12AC4452500722BB0 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		D03596B32AC4824000722BB0 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				D035969F2AC2DDE700722BB0 /* BucketListApp.swift */,
 				D03596A12AC2DDE700722BB0 /* ContentView.swift */,
+				D03596B12AC4452500722BB0 /* EditView.swift */,
+				D03596AD2AC432D400722BB0 /* Location.swift */,
+				D03596B32AC4824000722BB0 /* Result.swift */,
 				D03596A32AC2DDEA00722BB0 /* Assets.xcassets */,
 				D03596A52AC2DDEA00722BB0 /* Preview Content */,
 			);
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D03596A22AC2DDE700722BB0 /* ContentView.swift in Sources */,
+				D03596B42AC4824000722BB0 /* Result.swift in Sources */,
+				D03596AE2AC432D400722BB0 /* Location.swift in Sources */,
+				D03596B22AC4452500722BB0 /* EditView.swift in Sources */,
 				D03596A02AC2DDE700722BB0 /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +287,7 @@
 				DEVELOPMENT_TEAM = NS6ZTRW5DT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlok your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +317,7 @@
 				DEVELOPMENT_TEAM = NS6ZTRW5DT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlok your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
